@@ -1,0 +1,90 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    margin-left: 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #800000 ;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+  }
+  
+  .current-week, .results, .leaderboard {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
