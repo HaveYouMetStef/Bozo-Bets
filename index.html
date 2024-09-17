@@ -26,11 +26,32 @@
           <h2>Welcome to Bozos Bets!</h2>
           <p>Track your bets, view results, and see who's paying up!</p>
         </section>
-    
+        
+        <section class="add-bet">
+          <h3>Add Your Bet</h3>
+          <form id="bet-form">
+            <label for="user">Name:</label>
+            <input type="text" id="user" name="user" required>
+        
+            <label for="team">Select Team:</label>
+            <select id="team" name="team" required>
+              <option value="Stef">Stef</option>
+              <option value="Jason">Jason</option>
+              <option value="Wyatt">Wyatt</option>
+              <option value="Dustin">Dustin</option>
+              <!-- Add more teams as needed -->
+            </select>
+        
+            <button type="submit">Submit Bet</button>
+          </form>
+        </section>
+        
         <section class="current-week">
           <h3>Current Week Bets</h3>
           <!-- Dynamic content for current week bets -->
-           
+          <ul id="bet-list">
+            <!-- Bets will be added here dynamically -->
+          </ul>
         </section>
     
         <section class="results">
@@ -42,10 +63,19 @@
           <h3>Leaderboard</h3>
           <!-- Dynamic content for leaderboard -->
         </section>
+
+        <section class="bozos">
+          <h3>Bozos of the Week</h3>
+          <ul id="bozo-list">
+              <!-- Dynamic content for Bozos will be inserted here -->
+          </ul>
+      </section>
       </main>
     
       <footer>
         <p>&copy; 2024 Bozos Betting Game</p>
       </footer>
+
+      <script src="script.js"></script>
 </body>
 </html>
